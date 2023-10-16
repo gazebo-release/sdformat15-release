@@ -15,8 +15,8 @@ Build-Depends: cmake,
                libgz-tools2-dev,
                libgz-math7-dev,
                python3-gz-math7,
-               libgz-utils2-cli-dev,
-               libgz-utils2-dev
+               libgz-utils3-cli-dev,
+               libgz-utils3-dev
 Vcs-Browser: https://github.com/gazebo-release/sdformat15-release
 Vcs-Git: https://github.com/gazebo-release/sdformat15-release
 Standards-Version: 4.5.1
@@ -45,8 +45,8 @@ Section: libdevel
 Depends: libtinyxml2-dev,
          libgz-tools2-dev,
          libgz-math7-dev,
-         libgz-utils2-cli-dev,
-         libgz-utils2-dev,
+         libgz-utils3-cli-dev,
+         libgz-utils3-dev,
          libsdformat15 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
