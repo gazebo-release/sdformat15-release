@@ -13,8 +13,8 @@ Build-Depends: cmake,
                python3-pybind11,
                python3-dev,
                libgz-tools2-dev,
-               libgz-math7-dev,
-               python3-gz-math7,
+               libgz-math8-dev,
+               python3-gz-math8,
                libgz-utils3-cli-dev,
                libgz-utils3-dev
 Vcs-Browser: https://github.com/gazebo-release/sdformat15-release
@@ -44,7 +44,7 @@ Architecture: any
 Section: libdevel
 Depends: libtinyxml2-dev,
          libgz-tools2-dev,
-         libgz-math7-dev,
+         libgz-math8-dev,
          libgz-utils3-cli-dev,
          libgz-utils3-dev,
          libsdformat15 (= ${binary:Version}),
@@ -80,7 +80,7 @@ Description: Simulation Description Format (SDF) parser - SDF files
 Package: python3-sdformat15
 Architecture: any
 Depends: ${misc:Depends},
-         python3-gz-math7,
+         python3-gz-math8,
          ${python3:Depends}
 Enhances: libsdformat15
 Description: Simulation Description Format (SDF) parser - SDF files
