@@ -1,3 +1,9 @@
+sdformat15 (15.1.0-1~jammy) jammy; urgency=medium
+
+  * sdformat15 15.1.0-1 release
+
+ -- Steve Peters <scpeters@openrobotics.org>  Wed, 13 Nov 2024 23:04:09 +0000
+
 sdformat15 (15.0.0-1~jammy) jammy; urgency=medium
 
   * sdformat15 15.0.0-1 release
