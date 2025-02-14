@@ -1,3 +1,9 @@
+sdformat15 (15.2.0-1~noble) noble; urgency=medium
+
+  * sdformat15 15.2.0-1 release
+
+ -- Carlos Aguero <caguero@openrobotics.org>  Fri, 14 Feb 2025 16:10:15 +0100
+
 sdformat15 (15.1.1-1~noble) noble; urgency=medium
 
   * sdformat15 15.1.1-1 release
