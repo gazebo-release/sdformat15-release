@@ -1,0 +1,3 @@
+usr/libexec/gz/sdformat15[0-9][0-9]/*
+usr/lib/ruby/gz/cmd*.rb
+usr/share/*/sdformat[0-9][0-9].yaml
