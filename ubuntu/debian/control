@@ -29,7 +29,7 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends:  sdformat15-sdf (>= ${source:Version}),
           ${shlibs:Depends},
           ${misc:Depends}
-Recommends: gz-sdformat15-cli
+Recommends: sdformat15-cli
 Multi-Arch: same
 Description: Simulation Description Format (SDF) parser - Shared library
  SDF is an XML file format that describes environments, objects, and robots
@@ -78,7 +78,7 @@ Description: Simulation Description Format (SDF) parser - SDF files
  This package contains SDF (Simulation Description Format) XML files needed by
  the libsdformat.
 
-Package: sdformat15-sdf-cli
+Package: sdformat15-cli
 Architecture: any
 Depends: libsdformat15 (= ${binary:Version}),
          ${shlibs:Depends},
